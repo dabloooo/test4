@@ -1,0 +1,79 @@
+/* Загальні стилі для всього сайту */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Стилі для заголовка */
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+/* Стилі для тексту */
+.text {
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для блоку з футбольним полем */
+div {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #eaf7ff;
+    border: 1px solid #8fc3ff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки всередині блоків */
+div h2 {
+    color: #007acc;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Зображення футбольного поля */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Стилі для посилання */
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007acc;
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #005f99;
+}
